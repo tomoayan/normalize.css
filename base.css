@@ -1,0 +1,92 @@
+/* color-scheme: auto convert html components to light or dark */
+html {
+  color-scheme: dark light;
+  -webkit-tap-highlight-color: transparent
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+
+
+body {
+  line-height: 1.5;
+  /* Improve Accessibility */
+  -webkit-font-smoothing: antialiased;
+  /* Improve text rendering in safari */
+}
+
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+iframe {
+  display: block;
+  border: none;
+  max-width: 100%;
+}
+
+
+
+input,
+button,
+textarea,
+select {
+  /* Removes auto zooming in safari */
+  font-size: inherit;
+}
+
+
+
+p {
+  /* "lang" html attribute recommended to use hyphens css property*/
+  hyphens: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+input,
+textarea,
+label {
+  display: block;
+}
+
+menu,
+ul,
+ol {
+  padding: 0;
+}
